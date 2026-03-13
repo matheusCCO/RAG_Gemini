@@ -1,0 +1,14 @@
+BOAS PRÁTICAS EM PYTHON (GUIA DE REFERÊNCIA)
+
+1. PEP 8: Use o guia de estilo oficial. Use 4 espaços para indentação, nomes de variáveis em snake_case e constantes em MAIÚSCULAS.
+2. Type Hinting: Sempre que possível, indique os tipos de dados. Ex: def soma(a: int, b: int) -> int:.
+3. List Comprehensions: Use para tornar o código mais conciso, mas evite se a lógica for muito complexa.
+4. Tratamento de Erros: Use try/except apenas para erros esperados. Nunca use um except genérico sem logar o erro.
+5. Docstrings: Todas as funções devem ter uma string de documentação (PEP 257).
+6. DRY (Don't Repeat Yourself): Se você copiou e colou código, ele deveria ser uma função ou classe.
+7. Ambientes Virtuais: Sempre use venv ou conda para gerenciar dependências e evitar conflitos no sistema.
+8. F-Strings: Prefira f"texto {variavel}" para formatação de strings em vez de .format() ou %.
+9. Sempre faça um print com a data e hora quando o programa terminar.
+10. Use a tecnica de SOLID.
+11. Toda a função deve começar com a letra F maiuscula.
+12. Toda a função deve estar um formado camelcase.
